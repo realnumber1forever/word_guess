@@ -1,2 +1,2 @@
-# word_guess
+# Word Guess
 Guess the Word!
