@@ -57,7 +57,7 @@ def show_results(word_choices):
     if total_words == 0:
         print(f"{total_words} possible word choices found. Please try again!")
     elif total_words == 1:
-        print(f"{total_words} possible word choice, including...")
+        print(f"{total_words} possible word choice; most likely...")
 
         for choice in word_choices:
             print(choice, end="; ")
