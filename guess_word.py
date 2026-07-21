@@ -32,7 +32,7 @@ def possible_words(word_length, num_spaces=0, num_before=None):
     
     for word in list(all_words.keys()):
         if num_spaces != 0:
-            if " " in word and len(word) == word_length and word.index(" ") == num_before:
+            if " " in word and word.count(" ") == num_spaces and len(word) == word_length and word.index(" ") == num_before:
                 possible_word_choices.append(word)
         else:
             if len(word) == word_length and " " not in word:
@@ -56,6 +56,8 @@ def show_results(word_choices):
 
     if total_words == 0:
         print(f"{total_words} possible word choices found. Please try again!")
+
+        main_function() # Let us go again!
     elif total_words == 1:
         print(f"{total_words} possible word choice; most likely...")
 
@@ -70,6 +72,18 @@ def show_results(word_choices):
             print(choice, end="; ")
     
         print() # Formatting
+    
+    return total_words
+
+### Collect letter values and positions in a word(s)
+def get_letter_pos(known_places, more_letters):
+    known_letter = str(input("Enter known letter: "))
+    known_position = int(input("Enter known letter position: "))
+    known_places.append((known_letter.lower().strip(), known_position))
+    more_letters = input("Any more known letters? Press [ENTER] to continue; press any other key to exit. ")
+
+    return more_letters
+
 
 ### Where most of the interaction and processing occurs for the user
 def main_function():
@@ -84,18 +98,25 @@ def main_function():
         else:
             your_words = possible_words(guess_word)
         
-        more_letters = str(input("Any known letters? Press [ENTER] for yes; press any other key for no. "))
-        known_places = []
+        all_done = ""
 
-        while more_letters == "": # Keep entering letters until user decides to stop
-            known_letter = str(input("Enter known letter: "))
-            known_position = int(input("Enter known letter position: "))
-            known_places.append((known_letter.lower().strip(), known_position))
-            more_letters = input("Any more known letters? Press [ENTER] to continue; press any other key to exit. ")
+        while all_done == "": # In case of additional clues received later on
+            more_letters = str(input("Any known letters? Press [ENTER] for yes; press any other key for no. "))
+            known_places = []
+            
+            while more_letters == "": # Keep entering letters until user decides to stop
+                more_letters = get_letter_pos(known_places, more_letters)
 
-        show_results(specific_letters(your_words, known_places)) # Display final results!
-    except: # Break out, if so
+            results_num = show_results(specific_letters(your_words, known_places)) # Display results!
+
+            if results_num <= 1: # No need to continue at this point
+                break
+
+            all_done = str(input("Any new information received? Press [ENTER] for yes; press any other key for no. "))
+    except: # Break out, if so, and retry!
         print("Invalid input! Please try again.")
+
+        main_function() # Let us go again!
 
 
 ### Call the main function!
