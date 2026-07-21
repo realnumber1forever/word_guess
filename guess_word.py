@@ -1,9 +1,11 @@
 ### Importing libraries
 from collections import Counter # For duplicate checking
+# from quickdraw import QuickDrawData # For fun! :)
 
 ### Global variables across the program
 all_words = {} # Keep track of all words
 test_counter = [] # For duplicate words checking, just in case
+# qdd = QuickDrawData() # For fun purposes
 
 ### File Pre-Processing
 with open("words.txt", "r", encoding="utf-8") as file:
@@ -20,6 +22,15 @@ with open("words.txt", "r", encoding="utf-8") as file:
     counts = Counter(test_counter)
     duplicates = [item for item, count in counts.items() if count > 1]
     assert len(duplicates) == 0, f"{len(duplicates)} duplicates detected." # Will not run if any duplicates are found
+
+
+### Just having some fun!
+# with open("shared_words.txt", "w", encoding="utf-8") as file:
+#     for word in qdd.drawing_names:
+#         if word in all_words:
+#             file.write(f"{word}: {all_words[word]}\n")
+#         else:
+#             file.write(f"{word}: not found in list\n")
 
 
 ### Get a list of all possible words, depending on `word_length`,

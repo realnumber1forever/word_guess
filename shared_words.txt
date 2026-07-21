@@ -1,0 +1,345 @@
+aircraft carrier: not found in list
+airplane: 8
+alarm clock: not found in list
+ambulance: 9
+angel: 5
+animal migration: not found in list
+ant: 3
+anvil: 5
+apple: 5
+arm: 3
+asparagus: not found in list
+axe: 3
+backpack: 8
+banana: 6
+bandage: 7
+barn: 4
+baseball bat: not found in list
+baseball: not found in list
+basket: 6
+basketball: 10
+bat: 3
+bathtub: 7
+beach: 5
+bear: 4
+beard: not found in list
+bed: 3
+bee: 3
+belt: 4
+bench: 5
+bicycle: 7
+binoculars: 10
+bird: 4
+birthday cake: not found in list
+blackberry: 10
+blueberry: 9
+book: 4
+boomerang: 9
+bottlecap: not found in list
+bowtie: not found in list
+bracelet: 8
+brain: 5
+bread: 5
+bridge: 6
+broccoli: 8
+broom: 5
+bucket: 6
+bulldozer: 9
+bus: 3
+bush: not found in list
+butterfly: 9
+cactus: 6
+cake: 4
+calculator: not found in list
+calendar: 8
+camel: 5
+camera: 6
+camouflage: not found in list
+campfire: 8
+candle: 6
+cannon: 6
+canoe: not found in list
+car: not found in list
+carrot: 6
+castle: not found in list
+cat: 3
+ceiling fan: 11
+cell phone: 10
+cello: 5
+chair: 5
+chandelier: 10
+church: 6
+circle: 6
+clarinet: 8
+clock: 5
+cloud: 5
+coffee cup: not found in list
+compass: 7
+computer: 8
+cookie: 6
+cooler: not found in list
+couch: not found in list
+cow: 3
+crab: 4
+crayon: 6
+crocodile: 9
+crown: not found in list
+cruise ship: not found in list
+cup: 3
+diamond: 7
+dishwasher: not found in list
+diving board: not found in list
+dog: 3
+dolphin: 7
+donut: not found in list
+door: 4
+dragon: 6
+dresser: not found in list
+drill: not found in list
+drums: not found in list
+duck: 4
+dumbbell: not found in list
+ear: 3
+elbow: 5
+elephant: 8
+envelope: not found in list
+eraser: 6
+eye: 3
+eyeglasses: not found in list
+face: 4
+fan: not found in list
+feather: 7
+fence: 5
+finger: 6
+fire hydrant: 12
+fireplace: 9
+firetruck: not found in list
+fish: 4
+flamingo: 8
+flashlight: 10
+flip flops: not found in list
+floor lamp: not found in list
+flower: 6
+flying saucer: not found in list
+foot: not found in list
+fork: 4
+frog: 4
+frying pan: not found in list
+garden hose: not found in list
+garden: 6
+giraffe: 7
+goatee: 6
+golf club: not found in list
+grapes: 6
+grass: 5
+guitar: 6
+hamburger: 9
+hammer: 6
+hand: 4
+harp: 4
+hat: 3
+headphones: 10
+hedgehog: 8
+helicopter: 10
+helmet: 6
+hexagon: 7
+hockey puck: not found in list
+hockey stick: not found in list
+horse: 5
+hospital: 8
+hot air balloon: not found in list
+hot dog: 7
+hot tub: not found in list
+hourglass: 9
+house plant: not found in list
+house: 5
+hurricane: not found in list
+ice cream: 9
+jacket: 6
+jail: 4
+kangaroo: 8
+key: 3
+keyboard: 8
+knee: 4
+knife: 5
+ladder: 6
+lantern: 7
+laptop: 6
+leaf: 4
+leg: not found in list
+light bulb: not found in list
+lighter: 7
+lighthouse: 10
+lightning: 9
+line: 4
+lion: 4
+lipstick: 8
+lobster: 7
+lollipop: 8
+mailbox: 7
+map: 3
+marker: not found in list
+matches: not found in list
+megaphone: 9
+mermaid: 7
+microphone: 10
+microwave: 9
+monkey: 6
+moon: 4
+mosquito: 8
+motorbike: 9
+mountain: 8
+mouse: 5
+moustache: not found in list
+mouth: 5
+mug: 3
+mushroom: 8
+nail: 4
+necklace: not found in list
+nose: 4
+ocean: 5
+octagon: 7
+octopus: 7
+onion: 5
+oven: not found in list
+owl: 3
+paint can: not found in list
+paintbrush: not found in list
+palm tree: 9
+panda: 5
+pants: 5
+paper clip: not found in list
+parachute: 9
+parrot: 6
+passport: not found in list
+peanut: 6
+pear: 4
+peas: 4
+pencil: 6
+penguin: 7
+piano: 5
+pickup truck: not found in list
+picture frame: not found in list
+pig: 3
+pillow: 6
+pineapple: 9
+pizza: 5
+pliers: not found in list
+police car: not found in list
+pond: 4
+pool: not found in list
+popsicle: 8
+postcard: 8
+potato: 6
+power outlet: not found in list
+purse: 5
+rabbit: not found in list
+raccoon: 7
+radio: 5
+rain: 4
+rainbow: 7
+rake: 4
+remote control: not found in list
+rhinoceros: 10
+rifle: not found in list
+river: 5
+roller coaster: not found in list
+rollerskates: not found in list
+sailboat: 8
+sandwich: 8
+saw: not found in list
+saxophone: 9
+school bus: not found in list
+scissors: 8
+scorpion: not found in list
+screwdriver: not found in list
+sea turtle: not found in list
+see saw: not found in list
+shark: 5
+sheep: 5
+shoe: 4
+shorts: not found in list
+shovel: 6
+sink: 4
+skateboard: 10
+skull: 5
+skyscraper: 10
+sleeping bag: not found in list
+smiley face: not found in list
+snail: 5
+snake: 5
+snorkel: not found in list
+snowflake: 9
+snowman: 7
+soccer ball: not found in list
+sock: not found in list
+speedboat: not found in list
+spider: 6
+spoon: 5
+spreadsheet: not found in list
+square: 6
+squiggle: not found in list
+squirrel: 8
+stairs: not found in list
+star: 4
+steak: not found in list
+stereo: 6
+stethoscope: not found in list
+stitches: not found in list
+stop sign: 9
+stove: 5
+strawberry: 10
+streetlight: not found in list
+string bean: not found in list
+submarine: 9
+suitcase: 8
+sun: 3
+swan: 4
+sweater: 7
+swing set: not found in list
+sword: 5
+syringe: not found in list
+t-shirt: not found in list
+table: 5
+teapot: 6
+teddy-bear: not found in list
+telephone: 9
+television: 10
+tennis racquet: not found in list
+tent: 4
+The Eiffel Tower: not found in list
+The Great Wall of China: not found in list
+The Mona Lisa: not found in list
+tiger: 5
+toaster: 7
+toe: 3
+toilet: 6
+tooth: 5
+toothbrush: 10
+toothpaste: 10
+tornado: 7
+tractor: 7
+traffic light: 13
+train: 5
+tree: 4
+triangle: 8
+trombone: 8
+truck: 5
+trumpet: 7
+umbrella: 8
+underwear: not found in list
+van: not found in list
+vase: not found in list
+violin: 6
+washing machine: not found in list
+watermelon: not found in list
+waterslide: not found in list
+whale: 5
+wheel: 5
+windmill: 8
+wine bottle: not found in list
+wine glass: 10
+wristwatch: not found in list
+yoga: not found in list
+zebra: 5
+zigzag: 6
